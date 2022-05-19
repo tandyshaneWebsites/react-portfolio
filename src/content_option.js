@@ -1,38 +1,38 @@
-const logotext = "JOHN";
+const logotext = "Orbit Solutions";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Orbit Solutions",
+    description: "I’m A Local Web Developer Based In Birmingham",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Orbit Solutions",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Designing, Building and Maintaining Your Website, Mobile First",
+        second: "Creating Company Logos & Menus",
+        third: "Availibile In Both 中国人 & English",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Hi there! I'm a local Web Developer based in Birmingham. I have many years experience in web development and I have a degree in Software Engineering! I specialise in helping you bring your business into the 21st century using the latest technologies.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "My Services",
+    aboutme: "We offer a range of services in order to provide your business with a digital presence online!",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const ourpackages = [{
+        packagetitle: "Basic",
+        descritption: "Our basic package offers a one time setup fee for your website",
+        price: "One time fee for your website",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        packagetitle: "Extensive",
+        descritption: "Our extensive package offers the setup of your website and entitiles you to limited support of up to 30 hours per month",
+        price: "£250 per month",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        packagetitle: "Premium",
+        descritption: "Our premium package offers the setup of your website, along with unlimited support around the clock!",
+        price: "£500 per month",
     },
 ];
 
@@ -59,16 +59,16 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Logo Design",
+        description: "We strive to create the best possible logo for your companyy.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Development",
+        description: "We can create a range of websites, from simple company portfolios, to full table booking systems!",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Delivery App Integration",
+        description: "We can provide help and support in getting your business fully online through the help of Delivery Apps such as Just Eat, Deliveroo, Uber Eats and many more!.",
     },
 ];
 
@@ -156,7 +156,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    ourpackages,
     skills,
     services,
     introdata,
