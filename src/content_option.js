@@ -7,9 +7,9 @@ const meta = {
 const introdata = {
     title: "Orbit Solutions",
     animated: {
-        first: "Designing, Building and Maintaining Your Website, Mobile First",
-        second: "Creating Company Logos & Menus",
-        third: "Availibile In Both 中国人 & English",
+        first: "Designing, Building and Maintaining Your Website, Mobile First.",
+        second: "Creating Company Logos & Menus.",
+        third: "Availibile In Both 中国人 & English.",
     },
     description: "Hi there! I'm a local Web Developer based in Birmingham. I have many years experience in web development and I have a degree in Software Engineering! I specialise in helping you bring your business into the 21st century using the latest technologies.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
@@ -37,25 +37,22 @@ const ourpackages = [{
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "Customer Satisfaction",
+        value: 100,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Speedy Delivery",
+        value: 100,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Client Engagement",
+        value: 100,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Development Skills",
+        value: 100,
     },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+
 ];
 
 const services = [{
@@ -136,21 +133,19 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: " shane@orbitsolutionslimited.com",
+    YOUR_FONE: "07940019055",
+    YOUR_WECHAT: "OrbitSolutions",
+    description: "Feel free to email or WeChat our customer services team for a quote or general query. We look forward to hearing from you! ",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
+    wechat: "https://github.com",
+    linkedin: "https://www.linkedin.com/in/shane-tandy-91857518a/",
+    twitter: "https://twitter.com/TandyShane",
 };
 export {
     meta,
