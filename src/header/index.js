@@ -4,6 +4,7 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
+import LogoText from '../assets/images/header-logo.png';
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -18,7 +19,7 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
           <Link  className="navbar-brand nav_ac" to="/">
-            {logotext}
+            <img src={LogoText} alt="Orbit" height="50" width ="70"/> Solutions
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />

@@ -1,4 +1,8 @@
-const logotext = "Orbit Solutions";
+import Logo from './assets/images/logo.png';
+import Companies from './assets/images/companies.png';
+import LogoText from './assets/images/header-logo.png';
+
+const logotext = LogoText + " Solutions";
 const meta = {
     title: "Orbit Solutions",
     description: "I’m A Local Web Developer Based In Birmingham",
@@ -12,12 +16,14 @@ const introdata = {
         third: "Availibile In Both 中国人 & English.",
     },
     description: "Hi there! I'm a local Web Developer based in Birmingham. I have many years experience in web development and I have a degree in Software Engineering! I specialise in helping you bring your business into the 21st century using the latest technologies.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    orbitlogo: Logo,
 };
 
 const dataabout = {
-    title: "My Services",
-    aboutme: "We offer a range of services in order to provide your business with a digital presence online!",
+    title: "What We do",
+    aboutme: "We offer a range of services in order to provide your business with a digital presence online! Anything from graphic design for menus, creating logos, to setting up and maintaining your website and email services! ",
+    description: "We can also partner you with delivery services such as Just Eat, Deliveroo and Uber Eats. We can set you up with OpenTable in order to give your customers the ability to book tables in your resturant. Our prices are very competative. ",
+    img: Companies,
 };
 const ourpackages = [{
         packagetitle: "Basic",
@@ -37,36 +43,45 @@ const ourpackages = [{
 ];
 
 const skills = [{
-        name: "Customer Satisfaction",
+        name: "Logo Design",
         value: 100,
     },
     {
-        name: "Speedy Delivery",
-        value: 100,
+        name: "Website Design/Programming",
+        value: 90,
     },
     {
-        name: "Client Engagement",
-        value: 100,
+        name: "Menu Design",
+        value: 80,
     },
     {
-        name: "Development Skills",
-        value: 100,
+        name: "Tech Support/Consulting",
+        value: 85,
     },
 
 ];
 
 const services = [{
         title: "Logo Design",
-        description: "We strive to create the best possible logo for your companyy.",
+        description: "We strive to create the best possible logo for your company.",
+    },
+    {
+        title: "Menu Design",
+        description: "We provide a wide range of modern and classic menu degisns, as well as help translate menus from Chinese to English! ",
     },
     {
         title: "Website Development",
-        description: "We can create a range of websites, from simple company portfolios, to full table booking systems!",
+        description: "We create a range of websites, from simple company portfolios, to full table booking systems!",
     },
     {
         title: "Delivery App Integration",
-        description: "We can provide help and support in getting your business fully online through the help of Delivery Apps such as Just Eat, Deliveroo, Uber Eats and many more!.",
+        description: "We provide help and support in getting your business fully online through the help of Delivery Apps such as Just Eat, Deliveroo, Uber Eats and many more!.",
     },
+    {
+        title: "IT Consultancy",
+        description: "We provide basic IT support and consultancy for your business, whether it being POS systems or servers, we are happy to provide!",
+    }
+    ,
 ];
 
 const dataportfolio = [{

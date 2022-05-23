@@ -21,7 +21,7 @@ export const Socialicons = (params) => {
         {socialprofils.wechat && (
           <li>
             <a href={socialprofils.wechat}>
-              <img src={wechatLogo} height={30} width={29}/>
+              <img src={wechatLogo} height={30} width={29} alt="wechat"/>
             </a>
           </li>
         )}
