@@ -33,7 +33,10 @@ export const About = () => {
             <div>
               <p>{dataabout.aboutme}</p>
               <p>{dataabout.description}</p>
-              <img src={dataabout.img} alt="" />
+              <img src={dataabout.justeat} alt="" height={150} width={150} />
+              <img src={dataabout.deliveroo} alt="" height={150} width={150} />
+              <img src={dataabout.ubereats} alt="" height={150} width={150}/>
+              <img src={dataabout.opentable} alt="" height={150} width={180}/>
             </div>
           </Col>
         </Row>

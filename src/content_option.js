@@ -1,5 +1,8 @@
 import Logo from './assets/images/logo.png';
-import Companies from './assets/images/companies.png';
+import JustEat from './assets/images/justeat.png';
+import Deliveroo from './assets/images/deliveroo.png';
+import UberEats from './assets/images/ubereats.png';
+import OpenTable from './assets/images/opentable.png';
 import LogoText from './assets/images/header-logo.png';
 
 const logotext = LogoText + " Solutions";
@@ -23,7 +26,11 @@ const dataabout = {
     title: "What We do",
     aboutme: "We offer a range of services in order to provide your business with a digital presence online! Anything from graphic design for menus, creating logos, to setting up and maintaining your website and email services! ",
     description: "We can also partner you with delivery services such as Just Eat, Deliveroo and Uber Eats. We can set you up with OpenTable in order to give your customers the ability to book tables in your resturant. Our prices are very competative. ",
-    img: Companies,
+    justeat: JustEat,
+    deliveroo: Deliveroo,
+    ubereats: UberEats,
+    opentable: OpenTable,
+
 };
 const ourpackages = [{
         packagetitle: "Basic",
